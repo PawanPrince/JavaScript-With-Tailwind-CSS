@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../../output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <h1 class="bg-cyan-400">Welcome to tailwind css</h1> -->
+
+    <!-- Navbar start  -->
+      <nav class="bg-amber-300 flex justify-between px-4 py-2 ">
+        <div class="font-semibold">logo</div>
+            <ul class="flex gap-2.5">
+                <li class="hover:border-b font-semibold"><a href="../../index.html">Home</a></li>
+                <li class="hover:border-b font-semibold"><a href="../login/login.html">Login</a></li>
+                <li class="hover:border-b font-semibold"><a href="./signup.html">Sing up</a></li>
+            </ul>
+      </nav>
+     <!-- navbar end -->
+
+<!-- section started -->
+     <section class=" w-[95%] mx-auto h-screen"  >
+<h1 class="font-semibold text-3xl text-center mt-5">Sign up</h1>   
+<form action="" class=" flex flex-col gap-3.5 p-5 max-w-md mx-auto">
+
+<input  
+ id="username"
+ type="text"
+ placeholder="Enter your name"
+  class="bg-slate-200 p-2 rounded"
+   />
+<input 
+ id="email"
+ type="text"
+ placeholder="Enter your email"
+  class="bg-slate-200 p-2 rounded"
+   />
+<input 
+ id="password"
+ type="text"
+ placeholder="Enter your password" 
+ class="bg-slate-200 p-2 rounded"
+ 
+ />
+
+<button  id="signupbtn"
+ class="bg-amber-300 hover:bg-amber-500 p-2 rounded "> SignUp </button>
+</form> 
+ </section>
+<!-- section end -->
+
+<script src="./signup.js"></script>
+
+</body>
+</html>

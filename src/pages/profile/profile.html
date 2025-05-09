@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="../../output.css">
+</head>
+<body>
+    
+
+   <!-- Navbar start  -->
+
+   <nav class="bg-amber-300 flex justify-between px-4 py-2 ">
+    <div class="font-semibold">logo</div>
+        <ul class="flex gap-2.5">
+            <li class="hover:border-b font-semibold"><a href="../../index.html">Home</a></li>
+            <li class="hover:border-b font-semibold"><a href="">LogOut</a></li>
+        </ul>
+  </nav>
+ <!-- navbar end -->
+<!-- section --2  -->
+ <section class="h-screen w-full fixed top-0 left-0 bg-gray-800 "  id ="overlay" hidden>
+    <article class="h-1/2 w-1/2 bg-white rounded-2xl mt-36 mx-auto">
+        <header class="flex justify-between items-center p-5 border-b-2 border-gray-300 ">
+            <h1 class="font-semibold">Product Details</h1>
+            <button class="font-extrabold" id="closemodalbtn">X</button>
+        </header>
+
+        <article id="productsdetailContainer" class="p-5 border"> </article>
+    </article>
+ </section>
+ <!-- section started  -->
+<section>
+<header id="headercontainer"></header>
+<article 
+ id="productsContainer"
+ class="p-5 border grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-items-center items-center gap-5"></article>
+</section>
+
+
+    <script src="./profile.js"></script>
+</body>
+</html>
